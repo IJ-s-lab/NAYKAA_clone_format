@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ffe6f2;
+    color: #333;
 }
 
 header {
@@ -10,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #ff66b2;
     color: #fff;
 }
 
@@ -27,11 +29,64 @@ header ul {
 
 header ul li {
     margin: 0 10px;
+    position: relative;
 }
 
 header ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 10px;
+}
+
+header ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ff66b2;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header ul li ul li {
+    margin: 5px 0;
+}
+
+header ul li ul li a {
+    color: #fff;
+    background-color: #ff66b2;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header ul li ul li a:hover {
+    background-color: #ff99cc;
+}
+
+header ul li:hover > ul {
+    display: block;
+}
+
+header input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+header button {
+    background-color: #ff3399;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #e60073;
 }
 
 main {
@@ -42,6 +97,10 @@ main section {
     margin-bottom: 20px;
 }
 
+main section h2, main section h3, main section h4 {
+    color: #ff3399;
+}
+
 main section img {
     max-width: 100%;
     height: auto;
@@ -50,6 +109,8 @@ main section img {
 main section p {
     font-size: 16px;
     line-height: 1.5;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 main section input {
@@ -57,28 +118,58 @@ main section input {
     padding: 10px;
     margin-top: 10px;
     box-sizing: border-box;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
 }
 
-.gallary {
+.gallary, .img4-7, .first, .second, .third, .four, .five, .six, .seven, .eight, .nine {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.gallary img {
+.gallary img, .img4-7 img, .first img, .second img, .third img, .four img, .five img, .six img, .seven img, .eight img, .nine img {
     width: 32%;
     height: auto;
 }
 
-.banner img {
-    width: 100%;
-    height: auto;
+.gallary div, .img4-7 div, .first div, .second div, .third div, .four div, .five div, .six div, .seven div, .eight div, .nine div {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+}
+
+button {
+    background-color: #ff3399;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e60073;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 20px;
+    background-color: #ff66b2;
     color: #fff;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
 }
 
 @media (max-width: 768px) {
@@ -96,11 +187,11 @@ footer {
         margin: 5px 0;
     }
 
-    .gallary {
+    .gallary, .img4-7, .first, .second, .third, .four, .five, .six, .seven, .eight, .nine {
         flex-direction: column;
     }
 
-    .gallary img {
+    .gallary img, .img4-7 img, .first img, .second img, .third img, .four img, .five img, .six img, .seven img, .eight img, .nine img {
         width: 100%;
         margin-bottom: 10px;
     }
