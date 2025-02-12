@@ -1,0 +1,298 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff66b2;
+    color: #fff;
+}
+.topbar{
+    background-image: url("/newImage/nykaa topbar.jpg");
+    background-size: cover;
+    height: 35px;
+    justify-content: space-between;
+
+}
+.topbartext1{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    padding-left:50px;
+    display: inline-block;
+}
+
+#Getapp{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+   padding-left:1000px;
+    display: inline-block;
+}
+#Storesevents{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Gifts{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Help{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Getapp:hover{
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+   padding-left:1000px;
+    display: inline-block;
+}
+#Storesevents:hover{
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Gifts:hover{
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Help:hover{
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.logo  {
+    background-image: url("/newImage/nykaa logo.png");
+    height:40px;
+    width:80px;
+    background-size: cover;
+    position:relative;
+    left:100px;
+   
+}
+/* General Styles */
+
+
+/* Header Styling */
+header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height:45px;
+}
+
+/* Navigation Styling */
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-left: 50px;
+    position: relative;
+    padding-left:200px;
+}
+
+header ul li {
+    position: relative;
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: #fc7ab9;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Dropdown Styling */
+header ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 200px;
+}
+
+header ul li ul li {
+    margin: 5px 0;
+}
+
+header ul li ul li a {
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 3px;
+}
+
+header ul li ul li a:hover {
+    color:white;
+    background-color: #ed7ab3;
+}
+
+header ul li:hover > ul {
+    display: block;
+}
+
+/* Search Bar & Button Styling */
+header input {
+    color: #ff66b2;
+    padding: 8px 12px;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+    outline: none;
+    margin-left: auto;
+}
+
+header button {
+    background-color: #f64da2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header button:hover {
+    background-color: #40333a;
+}
+.pinklovesale{
+   
+    height:400px;
+    width:1515px;
+}
+.bank1{
+    height:150px;
+    width:750px;
+    display:inline-block;
+
+}
+.bank2{
+    height:150px;
+    width:750px;
+    display:inline-block;
+
+}
+
+.banner{
+    height:205px;
+    width:205px;
+    display: inline-block;
+}
+.banner:hover{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+}
+.vdayoffers{
+    background-color: #f7b5d7;
+    justify-content: center;
+    
+}
+.vdayoffersimg1{
+    height: 450px;
+    width: 450px;
+    display: inline-block;
+    padding-left: 70px;
+}
+.vdayoffersimg1:hover{
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    padding-left: 70px;
+}
+.vdayoffersimg{
+    height: 450px;
+    width: 450px;
+    display: inline-block;
+   
+}
+.vdayoffersimg:hover{
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+   
+}
+.vdayoffers p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #860345;
+    padding-left: 600px;
+   
+    
+}
+.hardtoresistdeals{
+    padding-top: 10px;
+}
+.hardtoresistdealsimg{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+
+   
+}
+.seasonshottestoffersimg{
+    height:400px;
+    width:1515px;
+}
+
