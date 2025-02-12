@@ -106,7 +106,7 @@ header {
     display: inline-block;
 }
 .logo  {
-    background-image: url("/newImage/nykaa logo.png");
+    background-image: url("/newImage/nykaalogo.png");
     height:40px;
     width:80px;
     background-size: cover;
