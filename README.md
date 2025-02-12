@@ -1,4 +1,4 @@
-## Naykaa Website Clone
+# Naykaa Website Clone
 
 This is a clone of the Naykaa e-commerce website, designed to provide a similar look and functionality using HTML, CSS, and JavaScript.
 
