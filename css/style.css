@@ -17,7 +17,7 @@ header {
     color: #fff;
 }
 .topbar{
-    background-image: url("/newImage/nykaa topbar.jpg");
+    background-image: url("/newImage/topbar.jpg");
     background-size: cover;
     height: 35px;
     justify-content: space-between;
